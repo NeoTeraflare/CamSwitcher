@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 27350701}
   m_Layer: 0
-  m_Name: IsoLookAt
+  m_Name: IsoFollow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -311,7 +311,7 @@ MonoBehaviour:
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
     m_Style: 1
-    m_Time: 1
+    m_Time: 0.3
     m_CustomCurve:
       serializedVersion: 2
       m_Curve: []
@@ -784,7 +784,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1243164006}
   m_Layer: 0
-  m_Name: Follow
+  m_Name: LookAt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -817,7 +817,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1363989681}
   m_Layer: 0
-  m_Name: TopLookAt
+  m_Name: TopFollow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
